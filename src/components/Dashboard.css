@@ -1,0 +1,51 @@
+.dashboard-container {
+  padding: 2rem;
+  color: var(--text);
+  background-color: var(--bg);
+  min-height: 100vh;
+  transition: background 0.3s ease;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--accent);
+}
+
+.skills-section, .languages-section, .progress-section {
+  margin-bottom: 2rem;
+}
+
+.skills-list, .languages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skill-badge {
+  background-color: var(--badge-bg);
+  color: var(--badge-text);
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.language-button {
+  background-color: var(--lang-btn-bg);
+  color: var(--lang-btn-text);
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+ul li {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}

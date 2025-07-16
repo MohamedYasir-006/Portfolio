@@ -1,0 +1,69 @@
+.home-container {
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Poppins', sans-serif;
+  max-width: 900px;
+  margin: auto;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.content-section {
+  margin-top: 2rem;
+}
+
+.about-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.closing-message {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  color: var(--accent);
+}
+
+.linkedin-button, .contact-button {
+  display: inline-block;
+  margin: 0.8rem 0.5rem;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.linkedin-button:hover, .contact-button:hover {
+  background-color: #005bb5;
+}
+
+.contact-button-link {
+  text-decoration: none;
+}

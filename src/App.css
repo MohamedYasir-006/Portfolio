@@ -1,0 +1,25 @@
+/* App.css */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.App {
+  transition: background-color 0.3s, color 0.3s;
+}
+:root {
+  --bg: #ffffff;
+  --text: #2c3e50;
+  --accent: #2980b9;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #f5f5f5;
+  --accent: #00a8ff;
+}

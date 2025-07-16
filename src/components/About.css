@@ -1,0 +1,123 @@
+.about-container {
+  background: #f4f6f8;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  min-height: 100vh;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #1f3a93;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #2980b9;
+}
+
+.languages-section {
+  margin-top: 2rem;
+}
+
+.languages-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #2c3e50;
+}
+
+.language-tags {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.language-tags button {
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.language-tags button:hover {
+  background-color: #1abc9c;
+}
+
+.icon-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+.insta-button {
+  background: #fff;
+  color: #e1306c;
+  border: 2px solid #e1306c;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.insta-button:hover {
+  background-color: #e1306c;
+  color: white;
+}
+
+.click-text {
+  color: #2c3e50;
+  font-weight: 500;
+  margin-left: 4px;
+}
+.fashion-link {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #e1306c;
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #e1306c;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 1.2rem;
+}
+
+.fashion-link:hover {
+  background-color: #e1306c;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.fashion-link:hover .click-it {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.click-it {
+  margin-left: 5px;
+  color: #2c3e50;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
