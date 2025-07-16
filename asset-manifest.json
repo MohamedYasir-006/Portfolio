@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6ffb869f.css",
+    "main.js": "/Portfolio/static/js/main.06625f3e.js",
+    "static/media/mohamed-yasir.jpg": "/Portfolio/static/media/mohamed-yasir.b295ec8b11de5cc652ea.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.6ffb869f.css.map": "/Portfolio/static/css/main.6ffb869f.css.map",
+    "main.06625f3e.js.map": "/Portfolio/static/js/main.06625f3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ffb869f.css",
+    "static/js/main.06625f3e.js"
+  ]
+}
